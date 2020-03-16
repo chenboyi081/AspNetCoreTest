@@ -35,19 +35,44 @@ namespace jike_05_DependencyInjectionDemo
             #endregion
 
             #region 花式注册
+            services.AddSingleton<IOrderService>(new OrderService());  //直接注入实例
+            services.AddSingleton<IOrderService, OrderServiceEx>();
+            //services.AddSingleton<IOrderService, OrderService>();
+            //services.AddSingleton<IOrderService, OrderService>();
+            //services.AddSingleton<IOrderService>(serviceProvider =>       //以工厂方式注入单例服务
+            //{
+            //    return new OrderServiceEx();
+            //});
 
+            //services.AddScoped<IOrderService>(serviceProvider =>  //以工厂方式注入Scop服务
+            //{
+
+            //    return new OrderServiceEx();
+            //});
             #endregion
 
             #region 尝试注册
+            //services.TryAddSingleton<IOrderService, OrderServiceEx>();
 
+            //services.TryAddEnumerable(ServiceDescriptor.Singleton<IOrderService, OrderServiceEx>());
+
+            //services.TryAddEnumerable(ServiceDescriptor.Singleton<IOrderService, OrderServiceEx>());
+
+            //services.TryAddEnumerable(ServiceDescriptor.Singleton<IOrderService>(new OrderServiceEx()));
+
+            //services.TryAddEnumerable(ServiceDescriptor.Singleton<IOrderService>(p =>
+            //{
+            //    return new OrderServiceEx();
+            //}));
             #endregion
 
             #region 移动和替换注册
-
+            //services.Replace(ServiceDescriptor.Singleton<IOrderService, OrderServiceEx>());
+            //services.RemoveAll<IOrderService>();
             #endregion
 
             #region 注册泛型模板
-
+            services.AddSingleton(typeof(IGenericService<>), typeof(GenericService<>));
             #endregion
 
 

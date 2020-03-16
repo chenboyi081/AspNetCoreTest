@@ -12,6 +12,9 @@ namespace jike_05_DependencyInjectionDemo.Controllers
     [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
+        /// <summary>
+        /// 两种依赖注入服务的方式，一种是构造函数中参数，另一种是针对接口参数使用FromServices的方式
+        /// </summary>
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -19,7 +22,7 @@ namespace jike_05_DependencyInjectionDemo.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IOrderService orderService, IGenericService<IOrderService> genericService)
         {
             _logger = logger;
         }
