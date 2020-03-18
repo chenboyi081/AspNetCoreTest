@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_04_Startup", "jike_04_Startup\jike_04_Startup.csproj", "{7D8C3DE7-D1FD-422E-84B0-4B75E3D7D68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_04_Startup", "jike_04_Startup\jike_04_Startup.csproj", "{7D8C3DE7-D1FD-422E-84B0-4B75E3D7D68D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jike_Demo", "jike_Demo", "{467127F1-1C46-4A5E-A544-BBA985686507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_05_DependencyInjectionDemo", "jike_05_DependencyInjectionDemo\jike_05_DependencyInjectionDemo.csproj", "{79046387-CCBC-47B7-90B9-B8816BA61D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_05_DependencyInjectionDemo", "jike_05_DependencyInjectionDemo\jike_05_DependencyInjectionDemo.csproj", "{79046387-CCBC-47B7-90B9-B8816BA61D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_06_DependencyInjectionScopeAndDisposableDemo", "jike_06_DependencyInjectionScopeAndDisposableDemo\jike_06_DependencyInjectionScopeAndDisposableDemo.csproj", "{6592F923-ABA1-4161-BCAD-80314F439289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{79046387-CCBC-47B7-90B9-B8816BA61D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79046387-CCBC-47B7-90B9-B8816BA61D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79046387-CCBC-47B7-90B9-B8816BA61D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6592F923-ABA1-4161-BCAD-80314F439289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6592F923-ABA1-4161-BCAD-80314F439289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6592F923-ABA1-4161-BCAD-80314F439289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6592F923-ABA1-4161-BCAD-80314F439289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7D8C3DE7-D1FD-422E-84B0-4B75E3D7D68D} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{79046387-CCBC-47B7-90B9-B8816BA61D33} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{6592F923-ABA1-4161-BCAD-80314F439289} = {467127F1-1C46-4A5E-A544-BBA985686507}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C8B6507-13B3-44B2-9A3C-172B3343799C}
