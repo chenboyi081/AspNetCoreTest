@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_05_DependencyInjection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_06_DependencyInjectionScopeAndDisposableDemo", "jike_06_DependencyInjectionScopeAndDisposableDemo\jike_06_DependencyInjectionScopeAndDisposableDemo.csproj", "{6592F923-ABA1-4161-BCAD-80314F439289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_07_DependencyInjectionAutofacDemo", "jike_07_DependencyInjectionAutofacDemo\jike_07_DependencyInjectionAutofacDemo.csproj", "{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_07_DependencyInjectionAutofacDemo", "jike_07_DependencyInjectionAutofacDemo\jike_07_DependencyInjectionAutofacDemo.csproj", "{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_08_ConfigurationDemo", "jike_08_ConfigurationDemo\jike_08_ConfigurationDemo.csproj", "{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_09_ConfigurationCommandLineDemo", "jike_09_ConfigurationCommandLineDemo\jike_09_ConfigurationCommandLineDemo.csproj", "{793439E9-39DD-4807-95D7-64F4BC82815A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_10_ConfigurationEnvironmentVariablesDemo", "jike_10_ConfigurationEnvironmentVariablesDemo\jike_10_ConfigurationEnvironmentVariablesDemo.csproj", "{534D04F0-6322-4E71-8993-B57694841EDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,18 @@ Global
 		{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793439E9-39DD-4807-95D7-64F4BC82815A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793439E9-39DD-4807-95D7-64F4BC82815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793439E9-39DD-4807-95D7-64F4BC82815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793439E9-39DD-4807-95D7-64F4BC82815A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534D04F0-6322-4E71-8993-B57694841EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534D04F0-6322-4E71-8993-B57694841EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534D04F0-6322-4E71-8993-B57694841EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534D04F0-6322-4E71-8993-B57694841EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +62,9 @@ Global
 		{79046387-CCBC-47B7-90B9-B8816BA61D33} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{6592F923-ABA1-4161-BCAD-80314F439289} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{6F194DC6-3C16-49BB-A5FF-32F97B7D3058} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{793439E9-39DD-4807-95D7-64F4BC82815A} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{534D04F0-6322-4E71-8993-B57694841EDC} = {467127F1-1C46-4A5E-A544-BBA985686507}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C8B6507-13B3-44B2-9A3C-172B3343799C}
