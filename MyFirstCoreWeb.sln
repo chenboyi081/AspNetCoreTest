@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_06_DependencyInjection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_07_DependencyInjectionAutofacDemo", "jike_07_DependencyInjectionAutofacDemo\jike_07_DependencyInjectionAutofacDemo.csproj", "{6F194DC6-3C16-49BB-A5FF-32F97B7D3058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_08_ConfigurationDemo", "jike_08_ConfigurationDemo\jike_08_ConfigurationDemo.csproj", "{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_08_ConfigurationDemo", "jike_08_ConfigurationDemo\jike_08_ConfigurationDemo.csproj", "{09530B2A-2ED5-4E85-9EBA-5CB16516AD66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_09_ConfigurationCommandLineDemo", "jike_09_ConfigurationCommandLineDemo\jike_09_ConfigurationCommandLineDemo.csproj", "{793439E9-39DD-4807-95D7-64F4BC82815A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_09_ConfigurationCommandLineDemo", "jike_09_ConfigurationCommandLineDemo\jike_09_ConfigurationCommandLineDemo.csproj", "{793439E9-39DD-4807-95D7-64F4BC82815A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_10_ConfigurationEnvironmentVariablesDemo", "jike_10_ConfigurationEnvironmentVariablesDemo\jike_10_ConfigurationEnvironmentVariablesDemo.csproj", "{534D04F0-6322-4E71-8993-B57694841EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_10_ConfigurationEnvironmentVariablesDemo", "jike_10_ConfigurationEnvironmentVariablesDemo\jike_10_ConfigurationEnvironmentVariablesDemo.csproj", "{534D04F0-6322-4E71-8993-B57694841EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_11_Configuration_FileDemo", "jike_11_Configuration_FileDemo\jike_11_Configuration_FileDemo.csproj", "{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{534D04F0-6322-4E71-8993-B57694841EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{534D04F0-6322-4E71-8993-B57694841EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{534D04F0-6322-4E71-8993-B57694841EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{09530B2A-2ED5-4E85-9EBA-5CB16516AD66} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{793439E9-39DD-4807-95D7-64F4BC82815A} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{534D04F0-6322-4E71-8993-B57694841EDC} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F} = {467127F1-1C46-4A5E-A544-BBA985686507}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C8B6507-13B3-44B2-9A3C-172B3343799C}
