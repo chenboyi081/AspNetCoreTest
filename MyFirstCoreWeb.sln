@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_09_ConfigurationComman
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_10_ConfigurationEnvironmentVariablesDemo", "jike_10_ConfigurationEnvironmentVariablesDemo\jike_10_ConfigurationEnvironmentVariablesDemo.csproj", "{534D04F0-6322-4E71-8993-B57694841EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_11_Configuration_FileDemo", "jike_11_Configuration_FileDemo\jike_11_Configuration_FileDemo.csproj", "{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jike_11_Configuration_FileDemo", "jike_11_Configuration_FileDemo\jike_11_Configuration_FileDemo.csproj", "{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jike_14_Configuration_Custom", "jike_14_Configuration_Custom\jike_14_Configuration_Custom.csproj", "{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{793439E9-39DD-4807-95D7-64F4BC82815A} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{534D04F0-6322-4E71-8993-B57694841EDC} = {467127F1-1C46-4A5E-A544-BBA985686507}
 		{3CA4A1EC-E4AF-4F4F-B42C-324305C8897F} = {467127F1-1C46-4A5E-A544-BBA985686507}
+		{A0ECFF80-25E8-4CEF-8D3A-943DDEAB617E} = {467127F1-1C46-4A5E-A544-BBA985686507}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C8B6507-13B3-44B2-9A3C-172B3343799C}
